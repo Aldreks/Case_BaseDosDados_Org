@@ -43,24 +43,23 @@ excluídas do dataset por possuírem mais de 90% de dados ausentes, se tornando 
 5. Mesmo com a dropagem das colunas, supra-citadas, o volume de dados vazios (ausentes) ainda foi elevadíssimo. Foi tomada a decisão de trabalharmos apenas
 com as colunas que apresentassem, no máximo, 3,6% de dados ausentes. Assim, criamos novo dataset com tais dados, diminuindo o impacto dos dados ausentes;
 6. As colunas: <b>"ano, sigla_uf, valor_total_producao_cafe e producao_leite"</b> apresentavam 100% de integridade dos dados. E a coluna "producao_cafe" 
-apresentava 98% de integridade. Por tais considerações e por serem dados relevantes, escolhemos as mesmas como amostrarem para nossa análise nessa apresentação;
-7. O dataset é composto por dados dos anos: 1985, 1996, 2006, 2017;
+apresentava 98% de integridade. Por tais considerações e por serem dados relevantes, escolhemos as mesmas como amostragem para nossa análise nessa apresentação;
+7. O dataset é composto por dados dos anos: 1985, 1996, 2006, 2017.
 
 ### Análise dos Dados (Insights)
 
 - Gráfico_1 - ANÁLISE DO VALOR TOTAL DE PRODUÇÃO DO CAFÉ: Verificamos que o ano 2006 teve maior valor negociado. O valor mais baixo ficou com o ano 2017. Existe
-a possibilidade de, talvez, o impute de dados do ano 2017 estar incompleto. O que explicaria a expressiva baixa, quase insginificante, do valor negociado
-quando, inclusive, comparamos com 1996 e 1985;
+a possibilidade de, talvez, o impute de dados do ano 2017 estar incompleto, o que explicaria a expressiva baixa, quase insignificante, do valor negociado
+quando, inclusive, comparamos com os anos de 1996 e 1985;
 
 - Gráfico_2 - ANÁLISE DA PRODUÇÃO DE CAFÉ: Verifica-se que o ano 1985 foi recorde de safra. O ano mais baixo foi 1996, menos de 1/5 do ano 1985. O segundo lugar
 ficou com o ano 2017, e o terceiro lugar com o ano 2006.
 
-- Gráfico 3 - ANÁLISE DA PRODUÇÃO DE LEITE: Verifica-se que o ano 1985 teve recorde de safra. O ano de 1996 não apresentou dados imputados. O ano de 2006 teve pouco mais de 5 milhões de Litros ficando em segundo lugar. Já o ano de 2017 teve o menor valor não chegando a 500 mil litros. Mais uma vez sugere que o ano de 2017 não está
-com o ano "fechado, completo";
+- Gráfico 3 - ANÁLISE DA PRODUÇÃO DE LEITE: Verifica-se que o ano 1985 teve recorde de safra. O ano de 1996 não apresentou dados imputados. O ano de 2006 teve pouco mais de 5 milhões de Litros ficando em segundo lugar. Já o ano de 2017 teve o menor valor não chegando a 500 mil litros. Mais uma vez sugere que o ano de 2017 pode não estar com o ano completo;
 
 - Gráfico 4 - ANÁLISE DO VALOR DA PRODUÇÃO DE CAFÉ ACUMULADA POR ESTADO: Vefica-se que o primeiro lugar ficou com MG com pouco mais de $ 70 Mi. Já MS ficou em segundo lugar com pouco mais de $ 54 Mi. O terceiro lugar coube a GO com cerca de $ 50 Mi;
 
-- Gráfico 5 - ANÁLISE PRODUÇÃO DE CAFÉ ACUMULADA POR ESTADO: Vefica-se que o primeiro lugar ficou com MG com pouco mais de 3 Mi de toneladas. Já SP ficou em segundo lugar com pouco menos de 1,5 Mi de toneladas. O terceiro lugar coube a ES com pouco menos de 1 Mi de toneladas;
+- Gráfico 5 - ANÁLISE PRODUÇÃO DE CAFÉ ACUMULADA POR ESTADO: Verifica-se que o primeiro lugar ficou com MG com pouco mais de 3 Mi de toneladas. Já SP ficou em segundo lugar com pouco menos de 1,5 Mi de toneladas. O terceiro lugar coube a ES com pouco menos de 1 Mi de toneladas;
  
-- Gráfico 6 - ANÁLISE PRODUÇÃO DE LEITE POR ESTADO: Vefica-se que o primeiro lugar ficou com BA com pouco menos de 1,6 Mi de toneladas. Já MG ficou em segundo lugar com pouco menos de 1,2 Mi de toneladas. O terceiro lugar coube a RS com pouco cerca de 1 Mi de toneladas;
+- Gráfico 6 - ANÁLISE PRODUÇÃO DE LEITE POR ESTADO: Verifica-se que o primeiro lugar ficou com a BA com pouco menos de 1,6 Mi de toneladas. Já MG ficou em segundo lugar com pouco menos de 1,2 Mi de toneladas. O terceiro lugar coube a RS com cerca de 1 Mi de toneladas;
 
