@@ -1,5 +1,5 @@
 # Project: CASE BASEDOSDADOS.ORG
-## Objetivo: Avaliar conhecimentos em python, ETL, SQL
+## Objetivo: Avaliar conhecimentos em Python, ETL, SQL
 ## Autor: Aldreks Albuquerque
 ## Data: 25/08/2022
 
@@ -9,6 +9,17 @@
 Normalizar base de dados em CSV, utilisando Python 3.10.6, e apresentar insights em dashboard (gráficos).
 
 ### Estrutura do código:
+- Carrega-se as bibliotecas à serem usadas no processo.
+- Carrega-se o dataset "municipio.csv" e cria-se o dataframe.
+- Visualiza-se o dataframe em busca de anormalidades nos dados e para compreender os dados.
+- Verifica-se a estrutura e dimensão do dataset.
+- Faz-se a normalização (tratamento) dos dados como: exclusão de registros ou colunas que não agregam valor as análises desejadas, 
+bem como registros vazios ou dados inconsistentes, registros duplicados.
+- Após normalização, segue-se as análises dos dados buscando insights válidos e significativos para tomada de decisão.
+- Em seguida gera-se os gráficos para demonstração por visualização de tais insights criados.
+- Finalmente, faz-se algumas consultas SQL na base de dados do Postgres/SQL, obtendo alguns insights relevantes.
+- Seria possível, também, termos utilizado Spark e SparkSQL, bem como arquivo Parquet, para uma maior flexibilidade 
+e eficiência no manuseio do dataset transformado em dataframe.
 
 ### Atendimento aos requisitos
 - Utilizar as bases do datalake da "basedosdados". Foi utilizada a base <b>"Censo Agropecuário"</b>;
