@@ -40,7 +40,7 @@ e eficiência no manuseio do dataset transformado em dataframe.
 3. Não haviam linhas com dados duplicados;
 4. As colunas "proporcao_despesa_fertilizante", "proporcao_despesa_defensivos", "proporcao_despesa_sementes", "proporcao_despesa_salarios", foram
 excluídas do dataset por possuírem mais de 90% de dados ausentes, se tornando irrelevantes para o processo de análise e insights, restando 112 colunas válidas;
-5. Mesmo com a dropagem das colunas, supra-citadas, o volume de dados vazios (ausentes) ainda foi elevadíssimo. Foi tomada a decisão trabalharmos apenas
+5. Mesmo com a dropagem das colunas, supra-citadas, o volume de dados vazios (ausentes) ainda foi elevadíssimo. Foi tomada a decisão de trabalharmos apenas
 com as colunas que apresentassem, no máximo, 3,6% de dados ausentes. Assim, criamos novo dataset com tais dados, diminuindo o impacto dos dados ausentes;
 6. As colunas: <b>"ano, sigla_uf, valor_total_producao_cafe e producao_leite"</b> apresentavam 100% de integridade dos dados. E a coluna "producao_cafe" 
 apresentava 98% de integridade. Por tais considerações e por serem dados relevantes, escolhemos as mesmas como amostrarem para nossa análise nessa apresentação;
