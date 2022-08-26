@@ -36,7 +36,7 @@ e eficiência no manuseio do dataset transformado em dataframe.
 
 ### Considerações Sobre a Base de Dados e o Processo de ETL:
 1. O dataset continha 20.738 registros e 116 colunas;
-2. Havia 878.323 campos vazios (dados ausentes);
+2. Haviam 878.323 campos vazios (dados ausentes);
 3. Não haviam linhas com dados duplicados;
 4. As colunas "proporcao_despesa_fertilizante", "proporcao_despesa_defensivos", "proporcao_despesa_sementes", "proporcao_despesa_salarios", foram
 excluídas do dataset por possuírem mais de 90% de dados ausentes, se tornando irrelevantes para o processo de análise e insights, restando 112 colunas válidas;
