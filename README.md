@@ -5,10 +5,10 @@
 
 --------------------------------------------------------------------------------------------------------- 
 
-### Aplicação do Projeto:
+### Aplicação do Projeto
 Normalizar base de dados em CSV, utilisando Python 3.10.6, e apresentar insights em dashboard (gráficos).
 
-### Estrutura do código:
+### Estrutura do código
 - Carrega-se as bibliotecas à serem usadas no processo.
 - Carrega-se o dataset "municipio.csv" e cria-se o dataframe.
 - Visualiza-se o dataframe em busca de anormalidades nos dados e para compreender os dados.
@@ -27,14 +27,14 @@ e eficiência no manuseio do dataset transformado em dataframe.
 - Subir a visualização e todo código em Python em um repositório público no seu Github;
 - Incluir alguma query em SQL no código 
 
-### Recursos utilizados:
+### Recursos utilizados
 - IDE - Microsoft Visual Studio Code (VS Code)  v. 1.70.2
 - Arquivo jupyter notebook
 - Pandas
 - Matplotlib
 - SQL
 
-### Considerações Sobre a Base de Dados e o Processo de ETL:
+### Considerações Sobre a Base de Dados e o Processo de ETL
 1. O dataset continha 20.738 registros e 116 colunas;
 2. Haviam 878.323 campos vazios (dados ausentes);
 3. Não haviam linhas com dados duplicados;
