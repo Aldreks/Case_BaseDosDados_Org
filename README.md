@@ -48,7 +48,7 @@ apresentava 98% de integridade. Por tais considerações e por serem dados relev
 
 ### Análise dos Dados (Insights)
 
-- Gráfico_1 - ANÁLISE DO VALOR TOTAL DE PRODUÇÃO DO CAFÉ: Verificamos que o ano 2006 teve maior valor negociado. O valor mais baixo ficou com o ano 2017. Existe
+- Gráfico_1 - ANÁLISE DO VALOR TOTAL DE PRODUÇÃO DO CAFÉ: Verifica-se que o ano 2006 teve maior valor negociado. O valor mais baixo ficou com o ano 2017. Existe
 a possibilidade de, talvez, o impute de dados do ano 2017 estar incompleto, o que explicaria a expressiva baixa, quase insignificante, do valor negociado
 quando, inclusive, comparamos com os anos de 1996 e 1985;
 
